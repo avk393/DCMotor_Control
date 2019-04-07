@@ -3,10 +3,6 @@
 // Description:   This starter code is used to bridge the TM4C123 board
 //                and the Blynk Application via the ESP8266. 
 //
-// Authors:       Mark McDermott
-// Converted to EE445L style Jonathan Valvano
-// Date:          May 21, 2018
-// Last update: Sept 20, 2018
 //
 // TM4C123       ESP8266-ESP01 (2 by 4 header)
 // PE5 (U5TX) to Pin 1 (Rx)
