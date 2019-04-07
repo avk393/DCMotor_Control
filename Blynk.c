@@ -1,26 +1,3 @@
-// -------------------------------------------------------------------
-// File name: Blynk.c
-// Description: This code is used to bridge the TM4C123 board and the Blynk Application
-//              via the ESP8266 WiFi board
-// Author: Mark McDermott and Andrew Lynch (Arduino source)
-// Converted to EE445L style Jonathan Valvano
-// Orig gen date: May 21, 2018
-// Last update: Sept 20, 2018
-//
-// Download latest Blynk library here:
-//   https://github.com/blynkkk/blynk-library/releases/latest
-//
-//  Blynk is a platform with iOS and Android apps to control
-//  Arduino, Raspberry Pi and the likes over the Internet.
-//  You can easily build graphic interfaces for all your
-//  projects by simply dragging and dropping widgets.
-//
-//   Downloads, docs, tutorials: http://www.blynk.cc
-//   Sketch generator:           http://examples.blynk.cc
-//   Blynk community:            http://community.blynk.cc
-//
-//------------------------------------------------------------------------------
-
 // TM4C123       ESP8266-ESP01 (2 by 4 header)
 // PE5 (U5TX) to Pin 1 (Rx)
 // PE4 (U5RX) to Pin 5 (TX)
