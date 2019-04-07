@@ -1,0 +1,10 @@
+void Blynk_to_TM4C(void);
+void SendInformation(void);
+void Blynk_Init(void);
+uint32_t getSpeed(void);
+uint32_t getKP1(void);
+uint32_t getKP2(void);
+uint32_t getKI1(void);
+uint32_t getKI2(void);
+uint32_t getTAU(void);
+int32_t getCalculatedSpeed(uint32_t period);
