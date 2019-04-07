@@ -21,27 +21,7 @@
 // Low level drivers for the ST7735 160x128 LCD based off of
 // the file described above.
 //    16-bit color, 128 wide by 160 high LCD
-// Daniel Valvano
-// March 28, 2016
-// Augmented 7/17/2014 to have a simple graphics facility
-// Tested with LaunchPadDLL.dll simulator 9/2/2014
-// Modified for use of CS (simultaneous with other SPI slaves) 3/28/2016
 
-/* This example accompanies the book
-   "Embedded Systems: Real Time Interfacing to ARM Cortex M Microcontrollers",
-   ISBN: 978-1463590154, Jonathan Valvano, copyright (c) 2018
-
- Copyright 2018 by Jonathan W. Valvano, valvano@mail.utexas.edu
-    You may use, edit, run or distribute this file
-    as long as the above copyright notice remains
- THIS SOFTWARE IS PROVIDED "AS IS".  NO WARRANTIES, WHETHER EXPRESS, IMPLIED
- OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF
- MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE APPLY TO THIS SOFTWARE.
- VALVANO SHALL NOT, IN ANY CIRCUMSTANCES, BE LIABLE FOR SPECIAL, INCIDENTAL,
- OR CONSEQUENTIAL DAMAGES, FOR ANY REASON WHATSOEVER.
- For more information about my classes, my research, and my books, see
- http://users.ece.utexas.edu/~valvano/
- */
 
 // hardware connections
 // **********ST7735 TFT and SDC*******************
@@ -68,9 +48,9 @@
 // CS   - PA3 TFT_CS, active low to enable TFT
 // *CS  - (NC) SDC_CS, active low to enable SDC
 // MISO - (NC) MISO SPI data from SDC to microcontroller
-// SDA  – (NC) I2C data for ADXL345 accelerometer
-// SCL  – (NC) I2C clock for ADXL345 accelerometer
-// SDO  – (NC) I2C alternate address for ADXL345 accelerometer
+// SDA  â€“ (NC) I2C data for ADXL345 accelerometer
+// SCL  â€“ (NC) I2C clock for ADXL345 accelerometer
+// SDO  â€“ (NC) I2C alternate address for ADXL345 accelerometer
 // Backlight + - Light, backlight connected to +3.3 V
 
 // **********wide.hk ST7735R with ADXL335 accelerometer *******************
@@ -84,9 +64,9 @@
 // CS   - PA3 TFT_CS, active low to enable TFT
 // *CS  - (NC) SDC_CS, active low to enable SDC
 // MISO - (NC) MISO SPI data from SDC to microcontroller
-// X– (NC) analog input X-axis from ADXL335 accelerometer
-// Y– (NC) analog input Y-axis from ADXL335 accelerometer
-// Z– (NC) analog input Z-axis from ADXL335 accelerometer
+// Xâ€“ (NC) analog input X-axis from ADXL335 accelerometer
+// Yâ€“ (NC) analog input Y-axis from ADXL335 accelerometer
+// Zâ€“ (NC) analog input Z-axis from ADXL335 accelerometer
 // Backlight + - Light, backlight connected to +3.3 V
 
 // **********HiLetgo ST7735 TFT and SDC (SDC not tested)*******************
